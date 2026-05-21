@@ -1,0 +1,219 @@
+@media (max-width: 1024px) {
+    .block-2-grid { 
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .block-2-header { 
+        flex-direction: column; 
+        align-items: flex-start; 
+        gap: 16px; 
+    }
+    .block-3-banner { 
+        min-height: auto; 
+    }
+    .block-3-content { 
+        padding: 40px; 
+    }
+    .block-3-content h2 { 
+        font-size: 32px; 
+    }
+}
+
+@media (max-width: 992px) {
+    .block-1-grid { 
+        grid-template-columns: 1fr 1fr; 
+    }
+    .card-main, .card-apple { 
+        grid-column: span 2; 
+        grid-row: auto; 
+    }
+    .card-credit, .card-invest, .card-cash { 
+        grid-column: auto; 
+        grid-row: auto; 
+    }
+    .card-invest { 
+        grid-column: span 2; 
+        min-height: 250px; 
+    }
+    .block-3-banner { 
+        flex-direction: column; 
+    }
+    .block-3-image-box { 
+        border-radius: 40px 40px 0 0; 
+        min-height: 350px; 
+    }
+    .block-3-phone-img { 
+        max-width: 60%; 
+    }
+    .block-4-grid {
+        gap: 16px;
+    }
+    .block-4-left {
+        gap: 16px;
+    }
+    .currency-card, .support-card {
+        padding: 24px;
+    }
+    .service-list-card {
+        padding: 20px 24px;
+    }
+    .service-desc {
+        max-width: 260px;
+    }
+}
+
+@media (max-width: 768px) {
+    .block-4-section {
+        margin-top: 48px;
+    }
+    .section-title {
+        font-size: 26px;
+        margin-bottom: 16px;
+    }
+    .block-4-grid {
+        grid-template-columns: 1fr; 
+        gap: 16px;
+    }
+    .block-4-left, .block-4-right {
+        justify-content: flex-start;
+        gap: 16px;
+    }
+    .currency-card {
+        padding: 20px 16px;
+    }
+    .currency-header h3 {
+        font-size: 18px;
+    }
+    .table-head, .table-row {
+        font-size: 13px;
+    }
+    .currency-name strong {
+        font-size: 14px;
+    }
+    .currency-name small {
+        display: none; 
+    }
+    .support-card {
+        padding: 20px 16px;
+    }
+    .support-text h3 {
+        font-size: 18px;
+    }
+    .support-text p {
+        font-size: 13px;
+    }
+    .service-list-card {
+        padding: 20px 16px;
+        min-height: auto;
+    }
+    .service-content h3 {
+        font-size: 18px;
+    }
+    .service-desc {
+        font-size: 13px;
+        max-width: 100%;
+        padding-right: 8px;
+    }
+    .service-icon-box, .support-image-box {
+        width: 40px;
+        height: 40px;
+    }
+    .block-6-grid {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: auto !important;
+        grid-template-areas: none !important;
+    }
+    .block-6-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .about-choose, .block-6-tab-btn {
+        width: 100%;
+    }
+    .about-card {
+        grid-area: auto !important;
+        background-position: right bottom;
+        background-size: auto 80%;
+        min-height: 180px;
+    }
+    .about-card.big-card {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 380px;
+    }
+}
+
+@media (max-width: 600px) {
+    .block-1-grid, .block-2-grid { 
+        grid-template-columns: 1fr; 
+    }
+    .card-main, .card-cash, .card-apple, .card-invest, .card-credit { 
+        grid-column: span 1; 
+        grid-row: auto; 
+    }
+    .card-main h2 { 
+        font-size: 30px; 
+    }
+    .card-main .content { 
+        max-width: 100%; 
+    }
+    .card-main .card-img { 
+        display: none; 
+    }
+    .white-content-wrapper { 
+        padding: 40px 0; 
+        gap: 40px; 
+    }
+    header { 
+        flex-direction: column; 
+        gap: 15px; 
+        align-items: flex-start; 
+    }
+    nav { 
+        flex-wrap: wrap; 
+    }
+    .block-3-content { 
+        padding: 30px 20px; 
+        gap: 16px; 
+    }
+    .block-3-content h2 { 
+        font-size: 26px; 
+    }
+    .block-3-image-box { 
+        min-height: 280px; 
+    }
+    .block-3-phone-img { 
+        max-width: 80%; 
+    }
+    .block-5-section {
+        margin: 48px 0;
+    }
+    .block-5-main-title {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    .block-5-grid {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 12px;
+    }
+    .service-card {
+        min-height: 150px;
+        padding: 20px;
+    }
+    .service-card-text {
+        max-width: 70%;
+    }
+    .service-card-text h3 {
+        font-size: 18px;
+    }
+    .service-card-text p {
+        font-size: 14px;
+    }
+    .service-card-icon {
+        width: 80px;
+        height: 80px;
+        padding: 10px;
+    }
+}
